@@ -1,60 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
-    
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-         <div class="search-box"> 
-              <input type ="text" placeholder="Enter your location" class = "input-box">
+      <div class="header">
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Enter your location"
+            class="input-box"
+          />
 
-              <button>
-              <i class="fa-solid fa-magnifying-glass" id="searchbtn"></i>
-            </button> 
-             </div>
-            </div>
-        <div class="weather-body">
-            <img src="https://t3.ftcdn.net/jpg/07/64/99/30/360_F_764993027_9PZpo43fAbd3bsw3OeJ9Tgk5oofafzQl.jpg" alt="sun image" class="sun-image">
-           <div class="weather box">
-            <p class="temperature">0<sup>°C</sup></p>
-            <p class="description">Clear Weather</p>
-           </div> 
-
-           <div class="weather-details">
-                <div class="Humidity">
-                   <i class="fas fa-tint"></i> 
-                   <div class="text">
-                    <span id="humidity">34%</span>
-                    <p>Humidity</p>
-
-                   </div>
-   
-                </div>
-
-                <div class="wind">
-                   <i class="ri-windy-fill" style="font-size: 24px;"></i> 
-                   <div class="text">
-                    <span id="wind-speed">12km/h</span>
-                    <p>Wind speed</p>
-
-                   </div>
-   
-                </div>
-           
-            </div >
+          <button>
+            <i class="fa-solid fa-magnifying-glass" id="searchbtn"></i>
+          </button>
         </div>
+      </div>
+      <div class="weather-body">
+        <img
+          src="https://t3.ftcdn.net/jpg/07/64/99/30/360_F_764993027_9PZpo43fAbd3bsw3OeJ9Tgk5oofafzQl.jpg"
+          alt="sun image"
+          class="sun-image"
+        />
+        <div class="weather box">
+          <p class="temperature">0<sup>°C</sup></p>
+          <p class="description">Clear Weather</p>
+        </div>
+
+        <div class="weather-details">
+          <div class="Humidity">
+            <i class="fas fa-tint"></i>
+            <div class="text">
+              <span id="humidity">34%</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="wind">
+            <i class="ri-windy-fill" style="font-size: 24px"></i>
+            <div class="text">
+              <span id="wind-speed">12km/h</span>
+              <p>Wind speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/595a890311.js"crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/595a890311.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,127 +1,123 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
 }
 
-body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:darkcyan;
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkcyan;
 }
 
-.container{
-   width: 400px;
-   height: min-content;
-   background-color: white; 
-   border-radius: 12px;
-   padding: 28px;
-
+.container {
+  width: 400px;
+  height: min-content;
+  background-color: white;
+  border-radius: 12px;
+  padding: 28px;
 }
-.search-box{
-    width: 100%;
-    height: min-content;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.search-box input{
-   width: 84%;
-   font-size: 20px;
-   text-transform:capitalize;
-   background-color: #e6f5fb;
-   padding: 15px 18px;
-   border-radius: 14px;
-   cursor: pointer;
-
-} 
-
-.search-box input::placeholder{
-    color: black;
-}
-.search-box button{
-    width: 46px;
-    height: 46px;
-    border-radius: 50px;
-      background-color: #e6f5fb;
-      cursor: pointer;
-      font-size: 20px ;
+.search-box {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.search-box button:hover{
-    color: rgb(234, 229, 229);
-    background-color: rgb(137, 135, 135);
+.search-box input {
+  width: 84%;
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: #e6f5fb;
+  padding: 15px 18px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.search-box input::placeholder {
+  color: black;
+}
+.search-box button {
+  width: 46px;
+  height: 46px;
+  border-radius: 50px;
+  background-color: #e6f5fb;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.search-box button:hover {
+  color: rgb(234, 229, 229);
+  background-color: rgb(137, 135, 135);
 }
 
 .weather-body {
-   display: flex;
-   justify-content: center;     
-   align-items: center;         
-   flex-direction: column;      
-   padding-top: 20px;
-   margin-block:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-block: 20px;
 }
 
 .weather-body img {
-   width: 90%;
-   margin-top: -30px;
-   margin-bottom: 30px;
+  width: 90%;
+  margin-top: -30px;
+  margin-bottom: 30px;
 }
-.weather-box{
-    margin-block: 20px;
-    text-align: center;
+.weather-box {
+  margin-block: 20px;
+  text-align: center;
 }
- .weather.box .temperature{
-    font-size: 40px;
-    font-weight: 600;
-    display: flex;              
-  justify-content: center;   
-  align-items: flex-start;   
-  gap: 4px; 
- }
- .weather.box .temperature sup{
-    font-size: 20px;
-    position:relative;
-    top: +px;
- }
- .weather.box .description{
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: capitalize;
- }
- .weather-details{
-    width: 100%;
-    display: flex;
-    justify-content:space-between;
-    margin-top: 30px;
- }
- .humadity, .wind{
-    display: flex;
-    align-items: center;
-
-
- }
- .humadity{
-    margin-left: 20px;
- }
- .wind{
-    margin-right:20px;
- }
-.weather-details i{
-    font-size: 35px;
-
+.weather.box .temperature {
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
 }
-.weather-details.text{
-    margin-left: 10px;
-    font-size: 16px;
+.weather.box .temperature sup {
+  font-size: 20px;
+  position: relative;
+  top: +px;
 }
-.text span{
-    font-size: 20px;
-    font-weight: 600%;
+.weather.box .description {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.weather-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.humadity,
+.wind {
+  display: flex;
+  align-items: center;
+}
+.humadity {
+  margin-left: 20px;
+}
+.wind {
+  margin-right: 20px;
+}
+.weather-details i {
+  font-size: 35px;
+}
+.weather-details.text {
+  margin-left: 10px;
+  font-size: 16px;
+}
+.text span {
+  font-size: 20px;
+  font-weight: 600%;
 }
