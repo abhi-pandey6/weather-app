@@ -20,11 +20,36 @@ A responsive weather application that provides real-time weather information for
 
 ## 📸 Screenshots
 
-
+![Weather App Screenshot](weather.png)
 
 ## ⚙️ How to Run the Project
 
-1. Clone the repository
+1. Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_LINK
+git clone https://github.com/abhi-pandey6/weather-app.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd weather-app
+```
+
+3. Open `index.html` in any modern web browser.
+
+4. Enter a city name and click search to view real-time weather information.
+
+## 🌐 API Used
+
+- OpenWeather API for fetching live weather data
+
+## 📌 Future Improvements
+
+- Add weather forecast for multiple days
+- Add location-based weather detection
+- Improve UI with more animations
+
+## 👨‍💻 Author
+
+Abhijeet Pandey
