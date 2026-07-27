@@ -18,10 +18,6 @@ A responsive weather application that provides real-time weather information for
 - JavaScript
 - OpenWeather API
 
-## 📸 Screenshots
-
-![Weather App Screenshot](weather.png)
-
 ## ⚙️ How to Run the Project
 
 1. Clone the repository:
@@ -52,4 +48,11 @@ cd weather-app
 
 ## 👨‍💻 Author
 
-Abhijeet Pandey
+### Abhijeet Pandey
+Java Backend Developer | Spring Boot | REST API | MySQL.
+backend development and building scalable applications using Java and Spring Boot.
+
+🔗 GitHub: https://github.com/abhi-pandey6  
+🔗 LinkedIn: https://www.linkedin.com/in/abhijeet-pandey-7a3174288/
+
+
